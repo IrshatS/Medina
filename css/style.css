@@ -1,0 +1,113 @@
+/* Start Variables */
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300&Amiri:wght@400;700&family=Katibeh&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Scheherazade:wght@400;700&display=swap");
+/* End Variables */
+/* Start Global Rules */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  direction: rtl;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Small*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/*Medium*/
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/*Large*/
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+/*Start Header*/
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0.35turn, #888, #ff710d50);
+  width: 100%;
+}
+
+header ul {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  display: flex;
+}
+
+header ul li {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/*End Header*/
+/*Start Main*/
+.translates {
+  padding-top: 100px;
+  background-color: #fafafa25;
+}
+
+.translate {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.translate__arabic {
+  color: #333333;
+  font-size: 2.2em;
+  line-height: 2;
+  font-family: "Almarai", serif;
+  font-weight: 300;
+}
+.translate__arabic__torussia {
+  color: #333333;
+  font-family: "Poiret One", cursive;
+  font-size: 1.6em;
+  direction: ltr;
+}
+
+/*End Main*/
+
+/*# sourceMappingURL=style.css.map */
